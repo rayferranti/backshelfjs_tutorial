@@ -17,7 +17,9 @@ router.route('/')
       firstName: req.body.firstName,
       lastName: req.body.lastName,
       emailAddress: req.body.emailAddress,
-    }).save().then((savedContact) => {
+    })
+    .save()
+    .then((savedContact) => {
         res.json({ savedContact });
       });
   });
