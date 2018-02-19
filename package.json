@@ -1,0 +1,19 @@
+{
+  "name": "contacts",
+  "version": "1.0.0",
+  "description": "A contacts manager using Bookshelf.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "knex migrate:latest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bookshelf": "^0.12.1",
+    "express": "^4.16.2",
+    "knex": "^0.14.3",
+    "sqlite3": "^3.1.13"
+  }
+}
